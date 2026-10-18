@@ -158,9 +158,9 @@ The project includes dashboards covering:
 - `Dashboard_1_Executive_Overview.png` — Executive dashboard
 - `Dashboard_2_Channel_Performance.png` — Channel performance dashboard
 - `Dashboard_3_Market_Device_Performance.png` — Market and device dashboard
-- `Dashboard_1_Channel_ROAS.png` — Channel ROAS analysis
-- `Dashboard_2_Statistics_CVR.png` — Conversion rate and confidence interval analysis
-- `Dashboard_3_AB_Test.png` — A/B testing analysis
+- `Dashboard_4_Channel_ROAS.png` — Channel ROAS analysis
+- `Dashboard_5_Statistics_CVR.png` — Conversion rate and confidence interval analysis
+- `Dashboard_6_AB_Test.png` — A/B testing analysis
 - `Tableau_Dashboard_Portfolio_Report (1).pdf` — Dashboard report
 
 ---
