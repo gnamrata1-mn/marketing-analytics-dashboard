@@ -5,198 +5,176 @@ An end-to-end marketing analytics project analyzing campaign performance across 
 
 ## 📊 Project Overview
 
-This project is a practical marketing analytics case study focused on analyzing campaign performance across channels, countries, devices, and campaigns.
+This project is an end-to-end Marketing Analytics portfolio project focused on analyzing campaign performance across channels, markets, devices, and campaigns.
 
-The project demonstrates how marketing data can be transformed into meaningful business insights using data cleaning, KPI analysis, visualization, and data-driven recommendations.
+The project demonstrates how marketing data can be transformed into meaningful KPIs, statistical insights, and data-driven business recommendations.
 
-**Dataset:** Synthetic dataset created for portfolio and learning purposes.
+The dataset is synthetic and created specifically for portfolio and learning purposes.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
 - Analyze marketing campaign performance
-- Compare channel efficiency
-- Evaluate revenue, bookings, and marketing spend
-- Calculate and interpret key marketing KPIs
-- Identify high- and low-performing markets
-- Analyze device-level performance
-- Develop data-driven campaign optimization recommendations
+- Evaluate channel efficiency and budget performance
+- Compare market and device performance
+- Calculate key marketing KPIs
+- Apply SQL for marketing data analysis
+- Apply statistical analysis and confidence intervals
+- Understand A/B testing and statistical significance
+- Convert analysis into actionable business recommendations
 
 ---
 
 ## 🛠️ Tools & Skills
 
-- **Advanced Excel**
-- **Tableau**
-- Data Cleaning
-- Data Analysis
-- Data Visualization
+- Advanced Excel
+- SQL
+- Statistics
+- Tableau
 - Marketing Analytics
+- Data Cleaning & Preparation
+- Marketing Funnel Analysis
+- Campaign Performance Analysis
 - KPI Analysis
-- Business Insight & Recommendation
+- Channel & Budget Analysis
+- A/B Testing
+- Statistical Significance
+- Data Visualization
+- Quantitative Decision-Making
 
 ---
 
-## 📌 Key Marketing Metrics
+## 📌 Key KPIs
 
 ### ROAS
-Measures revenue generated for every unit of marketing spend.
+**Return on Ad Spend**
 
-**ROAS = Revenue / Spend**
+`ROAS = Revenue / Spend`
+
+Measures how much revenue is generated for every unit of marketing spend.
 
 ### CPA
-Measures marketing spend required to generate one booking.
+**Cost per Acquisition**
 
-**CPA = Spend / Bookings**
+`CPA = Spend / Bookings`
+
+Measures the average cost of acquiring a booking.
 
 ### Conversion Rate
 
-**Conversion Rate = Bookings / Clicks × 100**
+`Conversion Rate = Bookings / Clicks × 100`
+
+Measures the percentage of clicks that result in bookings.
+
+---
+
+## 🔍 Analysis Performed
+
+### 1. Channel Performance
+- Compared Email, Google, Meta and TikTok
+- Analyzed Spend, Revenue, Bookings, CPA and ROAS
+- Identified high-efficiency and underperforming channels
+
+### 2. Market Performance
+- Compared marketing performance across markets
+- Identified markets with stronger efficiency
+
+### 3. Device Performance
+- Analyzed campaign performance across different devices
+- Compared conversion and efficiency metrics
+
+### 4. Campaign Analysis
+- Evaluated individual campaign performance
+- Compared campaign-level ROAS and KPIs
+
+### 5. Statistical Analysis
+- Calculated conversion rates
+- Used 95% confidence intervals
+- Applied statistical thinking to marketing performance evaluation
+
+### 6. A/B Testing
+- Compared two hypothetical campaign variants
+- Calculated conversion-rate uplift
+- Applied a two-proportion statistical test
+- Evaluated p-value and statistical significance
+- Used results to support marketing decisions
+
+### 7. SQL Analysis
+SQL was used to analyze:
+- Channel performance
+- Market performance
+- Device performance
+- Campaign performance
+- Monthly performance
+- Campaigns exceeding overall ROAS benchmarks
 
 ---
 
 ## 📈 Key Findings
 
-### Channel Performance
-
-- **Email:** 11.41x ROAS — highest channel efficiency.
-- **Google:** 5.99x ROAS — strong acquisition performance and a potential candidate for gradual scaling.
-- **Meta:** 4.22x ROAS — moderate performance compared with Google.
-- **TikTok:** 2.30x ROAS — lowest ROAS and highest CPA among the analyzed channels.
-
-### Market Performance
-
-- **Singapore:** 11.95x ROAS — strongest market efficiency in the dataset.
+- **Email** delivered the highest channel ROAS at approximately **11.41x**.
+- **Google** achieved approximately **5.99x ROAS**, indicating strong efficiency and potential for controlled scaling.
+- **Singapore** recorded the strongest market efficiency at approximately **11.95x ROAS**.
+- **TikTok** recorded approximately **2.30x ROAS** and the highest CPA among the major channels, indicating an opportunity for further optimization.
 
 ---
 
-## 💡 Business Insights & Recommendations
+## 💡 Business Recommendations
 
-### 1. Email — Strong Efficiency
-
-Email delivers the highest ROAS and lowest CPA among the analyzed channels.
-
-**Recommendation:**  
-Use it as an efficiency benchmark while checking whether additional spend can generate incremental bookings before scaling significantly.
-
-### 2. Google — Acquisition Opportunity
-
-Google combines strong ROAS with meaningful acquisition volume.
-
-**Recommendation:**  
-Increase budget gradually while monitoring incremental ROAS, booking volume, and CPA.
-
-### 3. Singapore — Strong Market Efficiency
-
-Singapore shows the highest ROAS among the analyzed markets.
-
-**Recommendation:**  
-Test whether the strong performance remains consistent when spend is increased.
-
-### 4. TikTok — Optimization Opportunity
-
-TikTok records the lowest ROAS and highest CPA.
-
-**Recommendation:**  
-Investigate creative performance, audience targeting, landing-page experience, and tracking before making major budget decisions.
+- Avoid allocating the entire budget based only on the highest ROAS.
+- Consider ROAS together with CPA, booking volume and conversion rate.
+- Scale strong-performing channels gradually while monitoring incremental performance.
+- Investigate audience targeting, creative performance and landing-page experience for weaker channels.
+- Use statistical significance before making major decisions based on A/B test results.
+- Continue monitoring performance after budget changes rather than making sudden large reallocations.
 
 ---
 
-## Decision-Making Approach
+## 🔄 Project Workflow
 
-A key learning from this analysis is that **the highest ROAS channel should not automatically receive the entire marketing budget**.
-
-Marketing budget decisions should consider:
-
-- ROAS
-- CPA
-- Booking volume
-- Incremental performance
-- Scalability
-- Statistical significance
-
-Budget changes should therefore be tested gradually and monitored rather than making large allocation changes based on a single KPI.
-
----
-
-## 🔄 Analytical Workflow
-
-**Data → Cleaning → KPI Calculation → Analysis → Visualization → Insight → Recommendation**
-
-The project focuses on moving beyond simply reporting numbers and connecting analytical findings with potential business decisions.
+**Data → Cleaning → KPI Calculation → SQL Analysis → Statistics → A/B Testing → Visualization → Insight → Recommendation**
 
 ---
 
 ## 📊 Dashboard Views
 
-### 1. Executive Overview
+The project includes dashboards covering:
 
-Provides an overall view of:
-
-- Revenue
-- Bookings
-- Spend
-- ROAS
-- Conversion Rate
-- Revenue trends
-- Channel performance
-- Market performance
-
-### 2. Channel Performance
-
-Analyzes:
-
-- ROAS by channel
-- CPA by channel
-- Conversion rate
-- Bookings
-
-### 3. Market & Device Performance
-
-Analyzes:
-
-- ROAS by country
-- CPA by country
-- ROAS by device
-- Conversion rate by device
+- Executive Overview
+- Channel Performance
+- Market & Device Performance
+- Channel ROAS
+- Conversion Rate & Statistical Analysis
+- A/B Testing Results
 
 ---
 
 ## 📁 Project Files
 
-| File | Description |
-|---|---|
-| `Marketing_Analytics_Tableau_Data.csv` | Cleaned, Tableau-ready synthetic dataset |
-| `Marketing_Analytics_Portfolio_DASHBOARD_FINAL.xlsx` | Excel dashboard and analysis |
-| `Tableau_Dashboard_Portfolio_Report.pdf` | Dashboard results, insights and recommendations |
-| `LinkedIn_Dashboard_1_Executive_Overview.png` | Executive dashboard |
-| `LinkedIn_Dashboard_2_Channel_Performance.png` | Channel performance dashboard |
-| `LinkedIn_Dashboard_3_Market_Device_Performance.png` | Market and device dashboard |
+- `Marketing_Analytics_Tableau_Data.csv` — Cleaned dataset prepared for analysis
+- `Marketing_Analytics_Portfolio_FINAL.xlsx` — Excel analysis, statistics, A/B testing and SQL results
+- `Marketing_Analytics_SQL_Analysis.sql` — SQL analysis queries
+- `Dashboard_1_Executive_Overview.png` — Executive dashboard
+- `Dashboard_2_Channel_Performance.png` — Channel performance dashboard
+- `Dashboard_3_Market_Device_Performance.png` — Market and device dashboard
+- `Dashboard_1_Channel_ROAS.png` — Channel ROAS analysis
+- `Dashboard_2_Statistics_CVR.png` — Conversion rate and confidence interval analysis
+- `Dashboard_3_AB_Test.png` — A/B testing analysis
+- `Tableau_Dashboard_Portfolio_Report (1).pdf` — Dashboard report
 
 ---
 
-## 📷 Dashboard Preview
+## ⚠️ Important Note
 
-### Executive Overview
-![Executive Overview](LinkedIn_Dashboard_1_Executive_Overview.png)
+All marketing data and the A/B testing experiment in this project are **synthetic and created for portfolio/learning purposes**.
 
-### Channel Performance
-![Channel Performance](LinkedIn_Dashboard_2_Channel_Performance.png)
-
-### Market & Device Performance
-![Market & Device Performance](LinkedIn_Dashboard_3_Market_Device_Performance.png)
+The project demonstrates analytical methods and decision-making approaches rather than representing real company performance.
 
 ---
 
-## ⚠️ Dataset Disclaimer
+## 👩‍💻 Skills Demonstrated
 
-This project uses a **synthetic dataset created specifically for portfolio and educational purposes**.
+**Advanced Excel | SQL | Statistics | Tableau | Marketing Analytics | Data Visualization | A/B Testing | Quantitative Analysis**
 
-It does not contain confidential, proprietary, or real company campaign data.
 
----
-
-## 👩‍💻 Project Focus
-
-This project was created to demonstrate practical skills in **marketing analytics, data visualization, KPI analysis, and data-driven business decision-making**.
